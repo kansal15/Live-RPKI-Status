@@ -22,12 +22,12 @@
 <text x="253.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">ARIN</text>
 <rect x="338.4" y="368.9" width="73.2" height="21.1" fill="#3f6b66" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
 <text x="375.0" y="360.9" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">107</text>
-<text x="375.0" y="344.9" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.8%)</text>
-<text x="375.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">LACNIC</text>
-<rect x="460.4" y="369.1" width="73.2" height="20.9" fill="#d1a24a" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="497.0" y="361.1" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">106</text>
-<text x="497.0" y="345.1" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.3%)</text>
-<text x="497.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">APNIC</text>
+<text x="375.0" y="344.9" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.3%)</text>
+<text x="375.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">APNIC</text>
+<rect x="460.4" y="369.3" width="73.2" height="20.7" fill="#d1a24a" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
+<text x="497.0" y="361.3" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">105</text>
+<text x="497.0" y="345.3" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.7%)</text>
+<text x="497.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">LACNIC</text>
 <rect x="582.4" y="390.0" width="73.2" height="0.0" fill="#7d5a6a" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
 <text x="619.0" y="382.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">0</text>
 <text x="619.0" y="366.0" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.0%)</text>
