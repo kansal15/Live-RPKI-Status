@@ -6,7 +6,7 @@
 <text x="340" y="64" font-family="Arial" font-size="13" font-weight="bold" fill="#f2e8db">ASNs</text>
 <rect x="20" y="73" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="92" font-family="Arial" font-size="12" fill="#3b2a1a">IN</text>
-<text x="340" y="92" font-family="Arial" font-size="12" fill="#3b2a1a">21</text>
+<text x="340" y="92" font-family="Arial" font-size="12" fill="#3b2a1a">22</text>
 <rect x="20" y="101" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="120" font-family="Arial" font-size="12" fill="#3b2a1a">AU</text>
 <text x="340" y="120" font-family="Arial" font-size="12" fill="#3b2a1a">18</text>

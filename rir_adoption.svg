@@ -16,13 +16,13 @@
 <text x="131.0" y="52.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">1,673</text>
 <text x="131.0" y="36.0" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(4.2%)</text>
 <text x="131.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">RIPENCC</text>
-<rect x="216.4" y="289.0" width="73.2" height="101.0" fill="#8a9a5b" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="253.0" y="281.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">512</text>
-<text x="253.0" y="265.0" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(1.5%)</text>
+<rect x="216.4" y="288.8" width="73.2" height="101.2" fill="#8a9a5b" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
+<text x="253.0" y="280.8" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">513</text>
+<text x="253.0" y="264.8" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(1.5%)</text>
 <text x="253.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">ARIN</text>
-<rect x="338.4" y="368.9" width="73.2" height="21.1" fill="#3f6b66" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="375.0" y="360.9" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">107</text>
-<text x="375.0" y="344.9" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.3%)</text>
+<rect x="338.4" y="368.7" width="73.2" height="21.3" fill="#3f6b66" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
+<text x="375.0" y="360.7" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">108</text>
+<text x="375.0" y="344.7" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.3%)</text>
 <text x="375.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">APNIC</text>
 <rect x="460.4" y="369.3" width="73.2" height="20.7" fill="#d1a24a" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
 <text x="497.0" y="361.3" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">105</text>
