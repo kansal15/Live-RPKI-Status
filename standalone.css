@@ -86,6 +86,14 @@ hr { border: none; border-top: 1px solid var(--grid); margin: 28px 0; }
 .rpki-table tr:nth-child(even) {
   background-color: var(--panel);
 }
+.rpki-table a {
+  color: var(--accent2);
+  text-decoration: none;
+  font-weight: bold;
+}
+.rpki-table a:hover {
+  text-decoration: underline;
+}
 
 /* Callout boxes */
 .rpki-refresh-note {
