@@ -64,35 +64,62 @@
     ASPA COVERAGE BY RIR
   </text>
 
-  <!-- Bar widths are sqrt-scaled from real counts (RIPE 1463, ARIN 436,
-       LACNIC 106, APNIC 85, AFRINIC 0) so smaller RIRs stay visible rather
-       than a linear scale flattening them to invisible slivers. This is
-       still a decorative summary, not the data chart - see rir_adoption.svg
-       below for the actual accurate figures. -->
+  <!-- Bars are sorted by actual current ASPA count every run (RANK1 =
+       highest), not tied to a fixed RIR identity - this is what lets the
+       banner stay correct if rankings ever shift, instead of silently
+       going stale like an earlier version did. Widths are sqrt-scaled so
+       smaller RIRs stay visible rather than a linear scale flattening
+       them to invisible slivers. This is still a decorative summary, not
+       the data chart - see rir_adoption.svg below for exact figures.
+       Widths are set via JS on load (see hidden data + script right after
+       the closing </svg> tag) rather than inline in the width= attribute,
+       since HTML comment markers don't work inside attribute values. -->
   <rect x="412" y="226" width="228" height="14" rx="3" fill="#e8d5c1"/>
-  <rect x="412" y="226" width="212" height="14" rx="3" fill="#3f6b66"/>
-  <text x="420" y="236" font-family="Arial, sans-serif" font-size="8.5" fill="#f2e8db">RIPE NCC (<!--RPKI:RIPENCC_ASPA_COUNT-->1,676<!--/RPKI:RIPENCC_ASPA_COUNT-->)</text>
+  <rect id="rpki-rank1-bar" x="412" y="226" width="0" height="14" rx="3" fill="#3f6b66"/>
+  <text x="420" y="236" font-family="Arial, sans-serif" font-size="8.5" fill="#f2e8db"><!--RPKI:RANK1_LABEL-->RIPE NCC<!--/RPKI:RANK1_LABEL--> (<!--RPKI:RANK1_COUNT-->1,678<!--/RPKI:RANK1_COUNT-->)</text>
 
   <rect x="412" y="243" width="228" height="14" rx="3" fill="#e8d5c1"/>
-  <rect x="412" y="243" width="116" height="14" rx="3" fill="#c0654b"/>
-  <text x="420" y="253" font-family="Arial, sans-serif" font-size="8.5" fill="#f2e8db">ARIN (<!--RPKI:ARIN_ASPA_COUNT-->517<!--/RPKI:ARIN_ASPA_COUNT-->)</text>
+  <rect id="rpki-rank2-bar" x="412" y="243" width="0" height="14" rx="3" fill="#c0654b"/>
+  <text x="420" y="253" font-family="Arial, sans-serif" font-size="8.5" fill="#f2e8db"><!--RPKI:RANK2_LABEL-->ARIN<!--/RPKI:RANK2_LABEL--> (<!--RPKI:RANK2_COUNT-->517<!--/RPKI:RANK2_COUNT-->)</text>
 
   <rect x="412" y="260" width="228" height="14" rx="3" fill="#e8d5c1"/>
-  <rect x="412" y="260" width="57"  height="14" rx="3" fill="#8a9a5b"/>
-  <text x="420" y="270" font-family="Arial, sans-serif" font-size="8.5" fill="#3b2a1a">LACNIC (<!--RPKI:LACNIC_ASPA_COUNT-->106<!--/RPKI:LACNIC_ASPA_COUNT-->)</text>
+  <rect id="rpki-rank3-bar" x="412" y="260" width="0" height="14" rx="3" fill="#8a9a5b"/>
+  <text x="420" y="270" font-family="Arial, sans-serif" font-size="8.5" fill="#3b2a1a"><!--RPKI:RANK3_LABEL-->APNIC<!--/RPKI:RANK3_LABEL--> (<!--RPKI:RANK3_COUNT-->113<!--/RPKI:RANK3_COUNT-->)</text>
 
   <rect x="412" y="277" width="228" height="14" rx="3" fill="#e8d5c1"/>
-  <rect x="412" y="277" width="51"  height="14" rx="3" fill="#d1a24a"/>
-  <text x="420" y="287" font-family="Arial, sans-serif" font-size="8.5" fill="#3b2a1a">APNIC (<!--RPKI:APNIC_ASPA_COUNT-->113<!--/RPKI:APNIC_ASPA_COUNT-->)</text>
+  <rect id="rpki-rank4-bar" x="412" y="277" width="0" height="14" rx="3" fill="#d1a24a"/>
+  <text x="420" y="287" font-family="Arial, sans-serif" font-size="8.5" fill="#3b2a1a"><!--RPKI:RANK4_LABEL-->LACNIC<!--/RPKI:RANK4_LABEL--> (<!--RPKI:RANK4_COUNT-->106<!--/RPKI:RANK4_COUNT-->)</text>
 
   <rect x="412" y="294" width="228" height="14" rx="3" fill="#e8d5c1"/>
-  <rect x="412" y="294" width="3"   height="14" rx="1" fill="#7d5a6a"/>
-  <text x="420" y="304" font-family="Arial, sans-serif" font-size="8.5" fill="#3b2a1a">AFRINIC (<!--RPKI:AFRINIC_ASPA_COUNT-->0<!--/RPKI:AFRINIC_ASPA_COUNT-->)</text>
+  <rect id="rpki-rank5-bar" x="412" y="294" width="0" height="14" rx="3" fill="#7d5a6a"/>
+  <text x="420" y="304" font-family="Arial, sans-serif" font-size="8.5" fill="#3b2a1a"><!--RPKI:RANK5_LABEL-->AFRINIC<!--/RPKI:RANK5_LABEL--> (<!--RPKI:RANK5_COUNT-->0<!--/RPKI:RANK5_COUNT-->)</text>
 
   <line x1="48" y1="340" x2="632" y2="340" stroke="#d3bfa4" stroke-width="1"/>
   <text x="48" y="360" font-family="Arial, sans-serif" font-size="11" fill="#7a6650">blog.gauravkansal.in</text>
   <text x="632" y="360" font-family="Arial, sans-serif" font-size="10" fill="#7a6650" text-anchor="end">Auto-refreshed</text>
 </svg>
+
+<div style="display:none">
+  <span id="rpki-rank1-width"><!--RPKI:RANK1_WIDTH-->228<!--/RPKI:RANK1_WIDTH--></span>
+  <span id="rpki-rank2-width"><!--RPKI:RANK2_WIDTH-->127<!--/RPKI:RANK2_WIDTH--></span>
+  <span id="rpki-rank3-width"><!--RPKI:RANK3_WIDTH-->59<!--/RPKI:RANK3_WIDTH--></span>
+  <span id="rpki-rank4-width"><!--RPKI:RANK4_WIDTH-->57<!--/RPKI:RANK4_WIDTH--></span>
+  <span id="rpki-rank5-width"><!--RPKI:RANK5_WIDTH-->3<!--/RPKI:RANK5_WIDTH--></span>
+</div>
+<script>
+// SVG attribute values can't contain HTML comment markers (they'd render
+// as literal text, breaking the attribute) - so the actual widths live in
+// hidden text nodes above instead, and get applied here on load.
+(function() {
+  for (var i = 1; i <= 5; i++) {
+    var widthEl = document.getElementById('rpki-rank' + i + '-width');
+    var barEl = document.getElementById('rpki-rank' + i + '-bar');
+    if (widthEl && barEl) {
+      barEl.setAttribute('width', widthEl.textContent.trim());
+    }
+  }
+})();
+</script>
 
 <p align="justify">
 RPKI (Resource Public Key Infrastructure) lets an Autonomous System prove two things
@@ -110,7 +137,7 @@ regenerated automatically every 24 hours directly from the RPKI repositories and
 own delegation records, so what you're reading reflects the actual state of adoption as of
 the timestamp above.
 <div class="rpki-freshness">📡 This data was captured
-<strong id="rpki-live-age"><!--RPKI:DATA_AGE_HOURS-->15 minutes<!--/RPKI:DATA_AGE_HOURS--> ago (at last check)</strong>.
+<strong id="rpki-live-age"><!--RPKI:DATA_AGE_HOURS-->40 minutes<!--/RPKI:DATA_AGE_HOURS--> ago (at last check)</strong>.
 <span id="rpki-epoch-data" style="display:none"><!--RPKI:RPKI_EPOCH_MS-->1784544109000<!--/RPKI:RPKI_EPOCH_MS--></span>
 </div>
 <script>
@@ -345,6 +372,140 @@ Zooming into APNIC specifically — <strong><!--RPKI:APNIC_ASPA_COUNT-->113<!--/
 <p>
 <strong><!--RPKI:INDIA_ASPA_COUNT-->25<!--/RPKI:INDIA_ASPA_COUNT--></strong> of India's <strong><!--RPKI:INDIA_TOTAL_ASNS-->6,186<!--/RPKI:INDIA_TOTAL_ASNS--></strong>
 APNIC-delegated ASNs (<strong><!--RPKI:INDIA_COVERAGE_PCT-->0.404<!--/RPKI:INDIA_COVERAGE_PCT-->%</strong>) currently publish ASPA.
+</p>
+
+<h3>Progress Report — Who's Adopting, and When</h3>
+
+<p>
+The numbers above are a snapshot; this table is the timeline behind them. Every APNIC-region
+ASN gets logged here the first time it shows up publishing ASPA, with the date it was first
+observed - so instead of just knowing the current count, you can see who's actually been
+adopting it and when, not just India's ASNs but the whole APNIC region. Newest entries first.
+</p>
+
+<table class="rpki-table">
+  <thead>
+    <tr><th>ASN</th><th>Organisation</th><th>Country</th><th>First Seen</th></tr>
+  </thead>
+  <tbody>
+    <!--RPKI:ASPA_ADOPTION_LOG_TABLE_ROWS-->    <tr><td><a href="https://wq.apnic.net/static/search.html?query=4608" target="_blank" rel="noopener">AS4608</a></td><td>Asia Pacific Network Information Centre</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr><td><a href="https://wq.apnic.net/static/search.html?query=4777" target="_blank" rel="noopener">AS4777</a></td><td>Asia Pacific Network Information Centre</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr><td><a href="https://wq.apnic.net/static/search.html?query=6279" target="_blank" rel="noopener">AS6279</a></td><td>PCCW Global (HK) Limited</td><td>HK</td><td>2026-07-20</td></tr>
+    <tr><td><a href="https://wq.apnic.net/static/search.html?query=9411" target="_blank" rel="noopener">AS9411</a></td><td>Kasetsart University</td><td>TH</td><td>2026-07-20</td></tr>
+    <tr><td><a href="https://wq.apnic.net/static/search.html?query=9885" target="_blank" rel="noopener">AS9885</a></td><td>National Knowledge Network</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr><td><a href="https://wq.apnic.net/static/search.html?query=10031" target="_blank" rel="noopener">AS10031</a></td><td>WebSatMedia Pte Ltd</td><td>SG</td><td>2026-07-20</td></tr>
+    <tr><td><a href="https://wq.apnic.net/static/search.html?query=10214" target="_blank" rel="noopener">AS10214</a></td><td>PENTANET LIMITED</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr><td><a href="https://wq.apnic.net/static/search.html?query=17470" target="_blank" rel="noopener">AS17470</a></td><td>Hutchison Telecommunications Lanka (Private) Limited</td><td>LK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=18366" target="_blank" rel="noopener">AS18366</a></td><td>Asia Pacific Network Information Centre</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=18367" target="_blank" rel="noopener">AS18367</a></td><td>Asia Pacific Network Information Centre</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=18368" target="_blank" rel="noopener">AS18368</a></td><td>Asia Pacific Network Information Centre</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=18369" target="_blank" rel="noopener">AS18369</a></td><td>Asia Pacific Network Information Centre</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=22672" target="_blank" rel="noopener">AS22672</a></td><td>Kinetix Networks</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=24322" target="_blank" rel="noopener">AS24322</a></td><td>Infininet Global Pty Ltd</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=24381" target="_blank" rel="noopener">AS24381</a></td><td>Infininet Global Pty Ltd</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=38077" target="_blank" rel="noopener">AS38077</a></td><td>Timor Telecom, SA</td><td>TL</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=38198" target="_blank" rel="noopener">AS38198</a></td><td>Digicel Tonga Ltd.</td><td>TO</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=38616" target="_blank" rel="noopener">AS38616</a></td><td>WORLDCALL TELECOM LIMITED</td><td>PK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=38620" target="_blank" rel="noopener">AS38620</a></td><td>National Knowledge Network</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=38710" target="_blank" rel="noopener">AS38710</a></td><td>WORLDCALL TELECOM LIMITED</td><td>PK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=38800" target="_blank" rel="noopener">AS38800</a></td><td>Digicel Samoa Ltd</td><td>WS</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=45177" target="_blank" rel="noopener">AS45177</a></td><td>Devoli LTD</td><td>NZ</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=45192" target="_blank" rel="noopener">AS45192</a></td><td>APNIC Training Unit Team</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=45355" target="_blank" rel="noopener">AS45355</a></td><td>Digicel Pacific Ltd</td><td>FJ</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=45773" target="_blank" rel="noopener">AS45773</a></td><td>HEC</td><td>PK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=45814" target="_blank" rel="noopener">AS45814</a></td><td>Fariya Networks</td><td>PK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=49867" target="_blank" rel="noopener">AS49867</a></td><td>Shuji Ito</td><td>CA</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=55414" target="_blank" rel="noopener">AS55414</a></td><td>WORLDCALL TELECOM LIMITED</td><td>PK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=55518" target="_blank" rel="noopener">AS55518</a></td><td>Singapore Internet Exchange Limited</td><td>SG</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=55722" target="_blank" rel="noopener">AS55722</a></td><td>CenPac Net Inc.</td><td>NR</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=58507" target="_blank" rel="noopener">AS58507</a></td><td>Wireline</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=64005" target="_blank" rel="noopener">AS64005</a></td><td>KaritKarma Limited</td><td>BD</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=131211" target="_blank" rel="noopener">AS131211</a></td><td>APNIC Member Services 2</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=131471" target="_blank" rel="noopener">AS131471</a></td><td>Login.Me (Pvt) Ltd</td><td>PK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=132021" target="_blank" rel="noopener">AS132021</a></td><td>Kalibo Cable Television Network Inc</td><td>PH</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=132278" target="_blank" rel="noopener">AS132278</a></td><td>Glencore-AS-IN</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=132429" target="_blank" rel="noopener">AS132429</a></td><td>Digicel Vanuatu Ltd</td><td>VU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=132447" target="_blank" rel="noopener">AS132447</a></td><td>Hutchison Telecommunications Lanka (Private) Limited</td><td>LK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=132458" target="_blank" rel="noopener">AS132458</a></td><td>PENTANET LIMITED</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=132528" target="_blank" rel="noopener">AS132528</a></td><td>DIGICEL (AUS) PTY LTD</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=132696" target="_blank" rel="noopener">AS132696</a></td><td>Singapore Internet Exchange Limited</td><td>SG</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=133267" target="_blank" rel="noopener">AS133267</a></td><td>VFVTR-AS</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=133298" target="_blank" rel="noopener">AS133298</a></td><td>NETFLOW-AS-IN</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=133369" target="_blank" rel="noopener">AS133369</a></td><td>Netpoint IT & Communications Pvt. Ltd</td><td>PK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=133504" target="_blank" rel="noopener">AS133504</a></td><td>PAOCLOUD CO., LTD.</td><td>TH</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=133895" target="_blank" rel="noopener">AS133895</a></td><td>PENTANET LIMITED</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=135244" target="_blank" rel="noopener">AS135244</a></td><td>KNET-AS</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=135775" target="_blank" rel="noopener">AS135775</a></td><td>PDSPL-AS</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=136308" target="_blank" rel="noopener">AS136308</a></td><td>Deenet Networks Private Limited</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=137239" target="_blank" rel="noopener">AS137239</a></td><td>Fil Products Service Television Incorporated</td><td>PH</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=137257" target="_blank" rel="noopener">AS137257</a></td><td>Localhost Limited</td><td>NZ</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=137273" target="_blank" rel="noopener">AS137273</a></td><td>X1 NETWORKS (PRIVATE) LIMITED</td><td>PK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=137812" target="_blank" rel="noopener">AS137812</a></td><td>RMG Sustainability Council (RSC)</td><td>BD</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=138038" target="_blank" rel="noopener">AS138038</a></td><td>Wolf Network Lab</td><td>JP</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=138398" target="_blank" rel="noopener">AS138398</a></td><td>Prodigi Technology Services Limited</td><td>NZ</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=138739" target="_blank" rel="noopener">AS138739</a></td><td>CCPL-AS-IN</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=138800" target="_blank" rel="noopener">AS138800</a></td><td>PEERNPL-AS-IN</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=138910" target="_blank" rel="noopener">AS138910</a></td><td>N/A</td><td>PK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=138926" target="_blank" rel="noopener">AS138926</a></td><td>Netpoint IT & Communications Pvt. Ltd</td><td>PK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=139074" target="_blank" rel="noopener">AS139074</a></td><td>Prodigi Technology Services Limited</td><td>NZ</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=139317" target="_blank" rel="noopener">AS139317</a></td><td>Ningbo Dahuamao Information Technology Co Ltd</td><td>CN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=140504" target="_blank" rel="noopener">AS140504</a></td><td>Digicel Nauru Corporation</td><td>NR</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=140594" target="_blank" rel="noopener">AS140594</a></td><td>New Pakistan Cable Network (Firm)</td><td>PK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=140607" target="_blank" rel="noopener">AS140607</a></td><td>Sign In (PVT) LTD</td><td>PK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=140905" target="_blank" rel="noopener">AS140905</a></td><td>Keepit A/S</td><td>DK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=140933" target="_blank" rel="noopener">AS140933</a></td><td>GEEK INSIDE NETWORKS</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=141368" target="_blank" rel="noopener">AS141368</a></td><td>ICT</td><td>NR</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=141753" target="_blank" rel="noopener">AS141753</a></td><td>CBC TECH INTERNATIONAL LTD.</td><td>SG</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=142218" target="_blank" rel="noopener">AS142218</a></td><td>Sixty Four Networks Limited.</td><td>BD</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=142245" target="_blank" rel="noopener">AS142245</a></td><td>Kastle (Fiji) Pte Ltd</td><td>FJ</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=142501" target="_blank" rel="noopener">AS142501</a></td><td>BHARAT-PUBLIC-DNS</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=142502" target="_blank" rel="noopener">AS142502</a></td><td>BHARAT-PUBLIC-DNS</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=142618" target="_blank" rel="noopener">AS142618</a></td><td>GH Telecom</td><td>PK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=147257" target="_blank" rel="noopener">AS147257</a></td><td>ATPLINDIA-AS-IN</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=148000" target="_blank" rel="noopener">AS148000</a></td><td>National Knowledge Network</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=148003" target="_blank" rel="noopener">AS148003</a></td><td>National Knowledge Network</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=149299" target="_blank" rel="noopener">AS149299</a></td><td>CABLESTAR INC.</td><td>PH</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=149301" target="_blank" rel="noopener">AS149301</a></td><td>Askja Telecom Limited</td><td>NZ</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=149794" target="_blank" rel="noopener">AS149794</a></td><td>Daryll Swer</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=150001" target="_blank" rel="noopener">AS150001</a></td><td>Sixty Four Networks Limited.</td><td>BD</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=150347" target="_blank" rel="noopener">AS150347</a></td><td>Planisware Singapore Pte. Ltd</td><td>SG</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=151627" target="_blank" rel="noopener">AS151627</a></td><td>KC Broadband Inc.</td><td>PH</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=151642" target="_blank" rel="noopener">AS151642</a></td><td>Netvine LTD</td><td>NZ</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=151704" target="_blank" rel="noopener">AS151704</a></td><td>BHARATDC-AS</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=151817" target="_blank" rel="noopener">AS151817</a></td><td>Zappie Host LLC</td><td>NZ</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=152537" target="_blank" rel="noopener">AS152537</a></td><td>MAHAVI-AS-IN</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=152590" target="_blank" rel="noopener">AS152590</a></td><td>THE IT DEPT PTY LTD</td><td>AU</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=152605" target="_blank" rel="noopener">AS152605</a></td><td>Z COM NETWORKS</td><td>PK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=152857" target="_blank" rel="noopener">AS152857</a></td><td>Karim Hosting Services</td><td>BD</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=153174" target="_blank" rel="noopener">AS153174</a></td><td>Aioni Digital and Data Solutions Inc.</td><td>PH</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=153176" target="_blank" rel="noopener">AS153176</a></td><td>PT LAPAK REGISTAR MURAH</td><td>ID</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=153180" target="_blank" rel="noopener">AS153180</a></td><td>Exaba</td><td>NZ</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=153509" target="_blank" rel="noopener">AS153509</a></td><td>Land Transport Authority of Fiji</td><td>FJ</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=153516" target="_blank" rel="noopener">AS153516</a></td><td>Six young boys online network</td><td>BD</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=153606" target="_blank" rel="noopener">AS153606</a></td><td>CYBERIA</td><td>PK</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=153725" target="_blank" rel="noopener">AS153725</a></td><td>Tenonet (Hangzhou) Co Ltd</td><td>CN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=154109" target="_blank" rel="noopener">AS154109</a></td><td>Hosting Oxygen</td><td>BD</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=154137" target="_blank" rel="noopener">AS154137</a></td><td>HLINK-IN</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=154138" target="_blank" rel="noopener">AS154138</a></td><td>IRINN-PRE6-AS-IN</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=154155" target="_blank" rel="noopener">AS154155</a></td><td>Suzhou Yesong Information Technology Co., Ltd</td><td>CN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=154185" target="_blank" rel="noopener">AS154185</a></td><td>Liu HaoRan</td><td>CN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=154259" target="_blank" rel="noopener">AS154259</a></td><td>Workalaya R. And D. Private Limited</td><td>NP</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=154317" target="_blank" rel="noopener">AS154317</a></td><td>VyomCloud</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=154481" target="_blank" rel="noopener">AS154481</a></td><td>Tachileik Jade Dragon Company Limited</td><td>MM</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=154486" target="_blank" rel="noopener">AS154486</a></td><td>REI MIMURA</td><td>JP</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=154562" target="_blank" rel="noopener">AS154562</a></td><td>CYBERJET PTE LTD</td><td>SG</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=154673" target="_blank" rel="noopener">AS154673</a></td><td>INDIGO DATA SERVICES PRIVATE LIMITED</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=154708" target="_blank" rel="noopener">AS154708</a></td><td>Nagorik Specialized Hospital Limited</td><td>BD</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=154742" target="_blank" rel="noopener">AS154742</a></td><td>Hanso Pte Ltd</td><td>SG</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=202348" target="_blank" rel="noopener">AS202348</a></td><td>Ylem</td><td>KR</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=133266" target="_blank" rel="noopener">AS133266</a></td><td>NETTECH-AS-IN</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=134303" target="_blank" rel="noopener">AS134303</a></td><td>ZEACLOUD-AS-IN</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr class="rpki-hidden-row" data-table="aspa-adoption-log" style="display:none;"><td><a href="https://wq.apnic.net/static/search.html?query=137134" target="_blank" rel="noopener">AS137134</a></td><td>ZEACLOUD-AS-IN</td><td>IN</td><td>2026-07-20</td></tr>
+    <tr><td colspan="4" style="text-align:center;"><a href="#" class="rpki-toggle-link" id="aspa-adoption-log-toggle-link" data-expanded="false" data-label-collapsed="See all 113 entries &#9662;" data-label-expanded="Show fewer &#9652;" onclick="rpkiToggleTable('aspa-adoption-log'); return false;">See all 113 entries &#9662;</a></td></tr><!--/RPKI:ASPA_ADOPTION_LOG_TABLE_ROWS-->
+  </tbody>
+</table>
+
+<p>
 For ROA, the picture is far more mature: <strong><!--RPKI:INDIA_ROA_COUNT-->2,939<!--/RPKI:INDIA_ROA_COUNT--></strong> ASNs
 (<strong><!--RPKI:INDIA_ROA_COVERAGE_PCT-->47.511<!--/RPKI:INDIA_ROA_COVERAGE_PCT-->%</strong>) publish at least one ROA, covering
 <strong><!--RPKI:INDIA_ROA_OBJECTS-->41,347<!--/RPKI:INDIA_ROA_OBJECTS--></strong> signed resources in total.
