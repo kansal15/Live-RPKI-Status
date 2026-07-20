@@ -3,10 +3,10 @@
 <rect x="60" y="60" width="360" height="260" fill="#f2e8db"/>
 <text x="240.0" y="30" text-anchor="middle" font-family="Arial" font-size="17" font-weight="bold" fill="#3b2a1a">ROV Enforcement: World vs India</text>
 <rect x="105.0" y="60.0" width="90.0" height="260.0" fill="#c0654b" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="150.0" y="50.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#3b2a1a">28.24%</text>
+<text x="150.0" y="50.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#3b2a1a">28.01%</text>
 <text x="150.0" y="342.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">World</text>
 <rect x="285.0" y="310.4" width="90.0" height="9.6" fill="#8a9a5b" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="330.0" y="300.4" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#3b2a1a">1.04%</text>
+<text x="330.0" y="300.4" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#3b2a1a">1.03%</text>
 <text x="330.0" y="342.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">India</text>
 <text x="240.0" y="368" text-anchor="middle" font-family="Arial" font-size="9" fill="#7a6650">28-day sliding window, source: APNIC Labs I-ROV measurement</text>
 </svg>
