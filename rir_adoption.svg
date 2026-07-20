@@ -5,28 +5,28 @@
 <line x1="70" y1="390.0" x2="680" y2="390.0" stroke="#d3bfa4" stroke-width="1"/>
 <text x="60" y="394.0" text-anchor="end" font-family="Arial" font-size="11" fill="#7a6650">0</text>
 <line x1="70" y1="307.5" x2="680" y2="307.5" stroke="#d3bfa4" stroke-width="1"/>
-<text x="60" y="311.5" text-anchor="end" font-family="Arial" font-size="11" fill="#7a6650">419</text>
+<text x="60" y="311.5" text-anchor="end" font-family="Arial" font-size="11" fill="#7a6650">420</text>
 <line x1="70" y1="225.0" x2="680" y2="225.0" stroke="#d3bfa4" stroke-width="1"/>
-<text x="60" y="229.0" text-anchor="end" font-family="Arial" font-size="11" fill="#7a6650">838</text>
+<text x="60" y="229.0" text-anchor="end" font-family="Arial" font-size="11" fill="#7a6650">839</text>
 <line x1="70" y1="142.5" x2="680" y2="142.5" stroke="#d3bfa4" stroke-width="1"/>
-<text x="60" y="146.5" text-anchor="end" font-family="Arial" font-size="11" fill="#7a6650">1257</text>
+<text x="60" y="146.5" text-anchor="end" font-family="Arial" font-size="11" fill="#7a6650">1258</text>
 <line x1="70" y1="60.0" x2="680" y2="60.0" stroke="#d3bfa4" stroke-width="1"/>
-<text x="60" y="64.0" text-anchor="end" font-family="Arial" font-size="11" fill="#7a6650">1676</text>
+<text x="60" y="64.0" text-anchor="end" font-family="Arial" font-size="11" fill="#7a6650">1678</text>
 <rect x="94.4" y="60.0" width="73.2" height="330.0" fill="#c0654b" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="131.0" y="52.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">1,676</text>
+<text x="131.0" y="52.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">1,678</text>
 <text x="131.0" y="36.0" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(4.2%)</text>
 <text x="131.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">RIPENCC</text>
-<rect x="216.4" y="288.2" width="73.2" height="101.8" fill="#8a9a5b" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="253.0" y="280.2" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">517</text>
-<text x="253.0" y="264.2" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(1.5%)</text>
+<rect x="216.4" y="288.3" width="73.2" height="101.7" fill="#8a9a5b" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
+<text x="253.0" y="280.3" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">517</text>
+<text x="253.0" y="264.3" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(1.5%)</text>
 <text x="253.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">ARIN</text>
-<rect x="338.4" y="368.3" width="73.2" height="21.7" fill="#3f6b66" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="375.0" y="360.3" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">110</text>
-<text x="375.0" y="344.3" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.4%)</text>
+<rect x="338.4" y="367.8" width="73.2" height="22.2" fill="#3f6b66" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
+<text x="375.0" y="359.8" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">113</text>
+<text x="375.0" y="343.8" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.4%)</text>
 <text x="375.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">APNIC</text>
-<rect x="460.4" y="369.1" width="73.2" height="20.9" fill="#d1a24a" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="497.0" y="361.1" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">106</text>
-<text x="497.0" y="345.1" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.7%)</text>
+<rect x="460.4" y="369.2" width="73.2" height="20.8" fill="#d1a24a" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
+<text x="497.0" y="361.2" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">106</text>
+<text x="497.0" y="345.2" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.7%)</text>
 <text x="497.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">LACNIC</text>
 <rect x="582.4" y="390.0" width="73.2" height="0.0" fill="#7d5a6a" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
 <text x="619.0" y="382.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">0</text>
