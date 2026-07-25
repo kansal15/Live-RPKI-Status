@@ -24,9 +24,9 @@
 <text x="375.0" y="355.3" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">138</text>
 <text x="375.0" y="339.3" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.4%)</text>
 <text x="375.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">APNIC</text>
-<rect x="460.4" y="367.1" width="73.2" height="22.9" fill="#d1a24a" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="497.0" y="359.1" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">118</text>
-<text x="497.0" y="343.1" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.8%)</text>
+<rect x="460.4" y="367.3" width="73.2" height="22.7" fill="#d1a24a" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
+<text x="497.0" y="359.3" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">117</text>
+<text x="497.0" y="343.3" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.8%)</text>
 <text x="497.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">LACNIC</text>
 <rect x="582.4" y="390.0" width="73.2" height="0.0" fill="#7d5a6a" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
 <text x="619.0" y="382.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">0</text>
