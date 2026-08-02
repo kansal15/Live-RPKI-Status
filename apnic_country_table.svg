@@ -6,22 +6,22 @@
 <text x="340" y="64" font-family="Arial" font-size="13" font-weight="bold" fill="#f2e8db">ASNs</text>
 <rect x="20" y="73" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="92" font-family="Arial" font-size="12" fill="#3b2a1a">IN</text>
-<text x="340" y="92" font-family="Arial" font-size="12" fill="#3b2a1a">40</text>
+<text x="340" y="92" font-family="Arial" font-size="12" fill="#3b2a1a">48</text>
 <rect x="20" y="101" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="120" font-family="Arial" font-size="12" fill="#3b2a1a">AU</text>
 <text x="340" y="120" font-family="Arial" font-size="12" fill="#3b2a1a">26</text>
 <rect x="20" y="129" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="148" font-family="Arial" font-size="12" fill="#3b2a1a">PK</text>
-<text x="340" y="148" font-family="Arial" font-size="12" fill="#3b2a1a">17</text>
+<text x="340" y="148" font-family="Arial" font-size="12" fill="#3b2a1a">18</text>
 <rect x="20" y="157" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="176" font-family="Arial" font-size="12" fill="#3b2a1a">BD</text>
 <text x="340" y="176" font-family="Arial" font-size="12" fill="#3b2a1a">11</text>
 <rect x="20" y="185" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="204" font-family="Arial" font-size="12" fill="#3b2a1a">NP</text>
+<text x="35" y="204" font-family="Arial" font-size="12" fill="#3b2a1a">SG</text>
 <text x="340" y="204" font-family="Arial" font-size="12" fill="#3b2a1a">9</text>
 <rect x="20" y="213" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="232" font-family="Arial" font-size="12" fill="#3b2a1a">SG</text>
-<text x="340" y="232" font-family="Arial" font-size="12" fill="#3b2a1a">8</text>
+<text x="35" y="232" font-family="Arial" font-size="12" fill="#3b2a1a">NP</text>
+<text x="340" y="232" font-family="Arial" font-size="12" fill="#3b2a1a">9</text>
 <rect x="20" y="241" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="260" font-family="Arial" font-size="12" fill="#3b2a1a">NZ</text>
 <text x="340" y="260" font-family="Arial" font-size="12" fill="#3b2a1a">8</text>
