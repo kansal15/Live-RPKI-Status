@@ -1,31 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-V78EBX66N1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-V78EBX66N1');
-        </script>
-
-        <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KKQWN7J6');</script>
-<!-- End Google Tag Manager -->
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Current Status of RPKI — ROAs and ASPAs Across the Internet</title>
 <meta property="og:title" content="Current Status of RPKI — ROAs and ASPAs Across the Internet" />
 <meta property="og:description" content="Live RPKI stats: ROA/ASPA/ROV adoption across all five RIRs, the APNIC region, and India. Auto-refreshed every 24 hours." />
-<meta property="og:image" content="rir_adoption.png" />
+<meta property="og:image" content="https://rpki.gauravkansal.in/rir_adoption.png" />
 <meta property="og:type" content="article" />
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="alternate icon" type="image/png" href="favicon.png">
@@ -156,7 +137,7 @@ regenerated automatically every 24 hours directly from the RPKI repositories and
 own delegation records, so what you're reading reflects the actual state of adoption as of
 the timestamp above.
 <div class="rpki-freshness">📡 This data was captured
-<strong id="rpki-live-age"><!--RPKI:DATA_AGE_HOURS-->1.6 hours<!--/RPKI:DATA_AGE_HOURS--> ago (at last check)</strong>.
+<strong id="rpki-live-age"><!--RPKI:DATA_AGE_HOURS-->1.7 hours<!--/RPKI:DATA_AGE_HOURS--> ago (at last check)</strong>.
 <span id="rpki-epoch-data" style="display:none"><!--RPKI:RPKI_EPOCH_MS-->1786804154000<!--/RPKI:RPKI_EPOCH_MS--></span>
 </div>
 <script>
@@ -638,11 +619,7 @@ adopting it and when, not just India's ASNs but the whole APNIC region. Newest e
 <p>
 The flip side of the table above: ASNs that WERE publishing ASPA and no longer are. This
 usually means one of a few things — a network deliberately withdrew it, a CA transition
-or renewal briefly dropped it, or (as happened at least once in APNIC's region) the ASPA
-object itself became non-compliant with the current profile draft — for instance,
-combining Provider AS0 with a real provider in the same object, which current drafts say
-should not happen, and which at least one validator (rpki-client) responds to by dropping
-the object entirely rather than partially accepting it. Newest removals first. If an ASN
+or renewal briefly dropped it. Newest removals first. If an ASN
 adopts, is removed, and later re-adopts, each removal is logged as its own separate event
 here — nothing gets silently merged or overwritten.
 </p>
