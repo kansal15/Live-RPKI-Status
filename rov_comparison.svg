@@ -6,7 +6,7 @@
 <text x="150.0" y="50.0" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#3b2a1a">38.88%</text>
 <text x="150.0" y="342.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">World</text>
 <rect x="285.0" y="205.4" width="90.0" height="114.6" fill="#8a9a5b" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="330.0" y="195.4" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#3b2a1a">17.14%</text>
+<text x="330.0" y="195.4" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#3b2a1a">17.13%</text>
 <text x="330.0" y="342.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">India</text>
 <text x="240.0" y="368" text-anchor="middle" font-family="Arial" font-size="9" fill="#7a6650">28-day sliding window, source: APNIC Labs I-ROV measurement</text>
 </svg>
