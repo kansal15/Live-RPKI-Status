@@ -17,16 +17,16 @@
 <text x="120.8" y="36.0" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(68.7%)</text>
 <text x="120.8" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">RIPENCC</text>
 <rect x="192.0" y="158.7" width="61.0" height="231.3" fill="#8a9a5b" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="222.5" y="150.7" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">19,157</text>
+<text x="222.5" y="150.7" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">19,159</text>
 <text x="222.5" y="134.7" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(61.3%)</text>
 <text x="222.5" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">APNIC</text>
 <rect x="293.7" y="230.8" width="61.0" height="159.2" fill="#3f6b66" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="324.2" y="222.8" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">13,183</text>
+<text x="324.2" y="222.8" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">13,185</text>
 <text x="324.2" y="206.8" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(38.6%)</text>
 <text x="324.2" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">ARIN</text>
-<rect x="395.3" y="304.8" width="61.0" height="85.2" fill="#d1a24a" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="425.8" y="296.8" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">7,060</text>
-<text x="425.8" y="280.8" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(49.3%)</text>
+<rect x="395.3" y="304.7" width="61.0" height="85.3" fill="#d1a24a" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
+<text x="425.8" y="296.7" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">7,061</text>
+<text x="425.8" y="280.7" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(49.3%)</text>
 <text x="425.8" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">LACNIC</text>
 <rect x="497.0" y="354.1" width="61.0" height="35.9" fill="#7d5a6a" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
 <text x="527.5" y="346.1" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">2,970</text>

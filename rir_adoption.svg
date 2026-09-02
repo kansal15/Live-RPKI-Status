@@ -20,9 +20,9 @@
 <text x="253.0" y="276.3" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">601</text>
 <text x="253.0" y="260.3" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(1.8%)</text>
 <text x="253.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">ARIN</text>
-<rect x="338.4" y="350.3" width="73.2" height="39.7" fill="#3f6b66" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="375.0" y="342.3" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">226</text>
-<text x="375.0" y="326.3" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.7%)</text>
+<rect x="338.4" y="349.0" width="73.2" height="41.0" fill="#3f6b66" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
+<text x="375.0" y="341.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">233</text>
+<text x="375.0" y="325.0" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(0.7%)</text>
 <text x="375.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">APNIC</text>
 <rect x="460.4" y="366.6" width="73.2" height="23.4" fill="#d1a24a" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
 <text x="497.0" y="358.6" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">133</text>
