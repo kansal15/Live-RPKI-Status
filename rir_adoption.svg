@@ -16,9 +16,9 @@
 <text x="131.0" y="52.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">1,912</text>
 <text x="131.0" y="36.0" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(4.8%)</text>
 <text x="131.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">RIPENCC</text>
-<rect x="216.4" y="284.4" width="73.2" height="105.6" fill="#8a9a5b" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
-<text x="253.0" y="276.4" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">612</text>
-<text x="253.0" y="260.4" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(1.8%)</text>
+<rect x="216.4" y="284.5" width="73.2" height="105.5" fill="#8a9a5b" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
+<text x="253.0" y="276.5" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">611</text>
+<text x="253.0" y="260.5" text-anchor="middle" font-family="Arial" font-size="10" fill="#7a6650">(1.8%)</text>
 <text x="253.0" y="410.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">ARIN</text>
 <rect x="338.4" y="341.0" width="73.2" height="49.0" fill="#3f6b66" stroke="#3b2a1a" stroke-width="0.8" rx="3"/>
 <text x="375.0" y="333.0" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#3b2a1a">284</text>
