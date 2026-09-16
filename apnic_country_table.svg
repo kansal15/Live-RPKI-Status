@@ -12,7 +12,7 @@
 <text x="340" y="120" font-family="Arial" font-size="12" fill="#3b2a1a">58</text>
 <rect x="20" y="129" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="148" font-family="Arial" font-size="12" fill="#3b2a1a">BD</text>
-<text x="340" y="148" font-family="Arial" font-size="12" fill="#3b2a1a">47</text>
+<text x="340" y="148" font-family="Arial" font-size="12" fill="#3b2a1a">50</text>
 <rect x="20" y="157" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="176" font-family="Arial" font-size="12" fill="#3b2a1a">PK</text>
 <text x="340" y="176" font-family="Arial" font-size="12" fill="#3b2a1a">27</text>
@@ -26,10 +26,10 @@
 <text x="35" y="260" font-family="Arial" font-size="12" fill="#3b2a1a">NZ</text>
 <text x="340" y="260" font-family="Arial" font-size="12" fill="#3b2a1a">17</text>
 <rect x="20" y="269" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="288" font-family="Arial" font-size="12" fill="#3b2a1a">SG</text>
-<text x="340" y="288" font-family="Arial" font-size="12" fill="#3b2a1a">13</text>
+<text x="35" y="288" font-family="Arial" font-size="12" fill="#3b2a1a">BT</text>
+<text x="340" y="288" font-family="Arial" font-size="12" fill="#3b2a1a">14</text>
 <rect x="20" y="297" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="316" font-family="Arial" font-size="12" fill="#3b2a1a">BT</text>
+<text x="35" y="316" font-family="Arial" font-size="12" fill="#3b2a1a">SG</text>
 <text x="340" y="316" font-family="Arial" font-size="12" fill="#3b2a1a">13</text>
 <rect x="20" y="325" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="344" font-family="Arial" font-size="12" fill="#3b2a1a">TH</text>
@@ -39,7 +39,7 @@
 <text x="340" y="372" font-family="Arial" font-size="12" fill="#3b2a1a">7</text>
 <rect x="20" y="381" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="400" font-family="Arial" font-size="12" fill="#3b2a1a">HK</text>
-<text x="340" y="400" font-family="Arial" font-size="12" fill="#3b2a1a">5</text>
+<text x="340" y="400" font-family="Arial" font-size="12" fill="#3b2a1a">6</text>
 <rect x="20" y="409" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="428" font-family="Arial" font-size="12" fill="#3b2a1a">JP</text>
 <text x="340" y="428" font-family="Arial" font-size="12" fill="#3b2a1a">5</text>
