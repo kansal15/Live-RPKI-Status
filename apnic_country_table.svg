@@ -9,7 +9,7 @@
 <text x="340" y="92" font-family="Arial" font-size="12" fill="#3b2a1a">64</text>
 <rect x="20" y="101" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="120" font-family="Arial" font-size="12" fill="#3b2a1a">AU</text>
-<text x="340" y="120" font-family="Arial" font-size="12" fill="#3b2a1a">62</text>
+<text x="340" y="120" font-family="Arial" font-size="12" fill="#3b2a1a">60</text>
 <rect x="20" y="129" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="148" font-family="Arial" font-size="12" fill="#3b2a1a">BD</text>
 <text x="340" y="148" font-family="Arial" font-size="12" fill="#3b2a1a">51</text>
@@ -35,14 +35,14 @@
 <text x="35" y="344" font-family="Arial" font-size="12" fill="#3b2a1a">TH</text>
 <text x="340" y="344" font-family="Arial" font-size="12" fill="#3b2a1a">8</text>
 <rect x="20" y="353" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="372" font-family="Arial" font-size="12" fill="#3b2a1a">CN</text>
-<text x="340" y="372" font-family="Arial" font-size="12" fill="#3b2a1a">7</text>
+<text x="35" y="372" font-family="Arial" font-size="12" fill="#3b2a1a">HK</text>
+<text x="340" y="372" font-family="Arial" font-size="12" fill="#3b2a1a">6</text>
 <rect x="20" y="381" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="400" font-family="Arial" font-size="12" fill="#3b2a1a">HK</text>
-<text x="340" y="400" font-family="Arial" font-size="12" fill="#3b2a1a">6</text>
+<text x="35" y="400" font-family="Arial" font-size="12" fill="#3b2a1a">CN</text>
+<text x="340" y="400" font-family="Arial" font-size="12" fill="#3b2a1a">5</text>
 <rect x="20" y="409" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="428" font-family="Arial" font-size="12" fill="#3b2a1a">JP</text>
-<text x="340" y="428" font-family="Arial" font-size="12" fill="#3b2a1a">5</text>
+<text x="340" y="428" font-family="Arial" font-size="12" fill="#3b2a1a">4</text>
 <rect x="20" y="437" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="456" font-family="Arial" font-size="12" fill="#3b2a1a">FJ</text>
 <text x="340" y="456" font-family="Arial" font-size="12" fill="#3b2a1a">4</text>
@@ -68,22 +68,22 @@
 <text x="35" y="652" font-family="Arial" font-size="12" fill="#3b2a1a">AF</text>
 <text x="340" y="652" font-family="Arial" font-size="12" fill="#3b2a1a">2</text>
 <rect x="20" y="661" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="680" font-family="Arial" font-size="12" fill="#3b2a1a">ID</text>
-<text x="340" y="680" font-family="Arial" font-size="12" fill="#3b2a1a">2</text>
+<text x="35" y="680" font-family="Arial" font-size="12" fill="#3b2a1a">LA</text>
+<text x="340" y="680" font-family="Arial" font-size="12" fill="#3b2a1a">1</text>
 <rect x="20" y="689" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="708" font-family="Arial" font-size="12" fill="#3b2a1a">LA</text>
+<text x="35" y="708" font-family="Arial" font-size="12" fill="#3b2a1a">TL</text>
 <text x="340" y="708" font-family="Arial" font-size="12" fill="#3b2a1a">1</text>
 <rect x="20" y="717" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="736" font-family="Arial" font-size="12" fill="#3b2a1a">TL</text>
+<text x="35" y="736" font-family="Arial" font-size="12" fill="#3b2a1a">WS</text>
 <text x="340" y="736" font-family="Arial" font-size="12" fill="#3b2a1a">1</text>
 <rect x="20" y="745" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="764" font-family="Arial" font-size="12" fill="#3b2a1a">WS</text>
+<text x="35" y="764" font-family="Arial" font-size="12" fill="#3b2a1a">CA</text>
 <text x="340" y="764" font-family="Arial" font-size="12" fill="#3b2a1a">1</text>
 <rect x="20" y="773" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="792" font-family="Arial" font-size="12" fill="#3b2a1a">CA</text>
+<text x="35" y="792" font-family="Arial" font-size="12" fill="#3b2a1a">VU</text>
 <text x="340" y="792" font-family="Arial" font-size="12" fill="#3b2a1a">1</text>
 <rect x="20" y="801" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="820" font-family="Arial" font-size="12" fill="#3b2a1a">VU</text>
+<text x="35" y="820" font-family="Arial" font-size="12" fill="#3b2a1a">ID</text>
 <text x="340" y="820" font-family="Arial" font-size="12" fill="#3b2a1a">1</text>
 <rect x="20" y="829" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="848" font-family="Arial" font-size="12" fill="#3b2a1a">KH</text>
