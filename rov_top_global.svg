@@ -6,37 +6,37 @@
 <text x="132" y="71.0" text-anchor="end" font-family="Arial" font-size="11" font-weight="normal" fill="#3b2a1a">Saudi Arabia</text>
 <text x="578.0" y="71.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">99.8%</text>
 <rect x="140" y="87" width="430" height="24" fill="#f2e8db"/>
-<rect x="140" y="87" width="427.5" height="24" fill="#3f6b66" rx="3"/>
+<rect x="140" y="87" width="427.4" height="24" fill="#3f6b66" rx="3"/>
 <text x="132" y="103.0" text-anchor="end" font-family="Arial" font-size="11" font-weight="normal" fill="#3b2a1a">Morocco</text>
-<text x="575.5" y="103.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">99.2%</text>
+<text x="575.4" y="103.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">99.2%</text>
 <rect x="140" y="119" width="430" height="24" fill="#f2e8db"/>
-<rect x="140" y="119" width="385.3" height="24" fill="#3f6b66" rx="3"/>
+<rect x="140" y="119" width="385.0" height="24" fill="#3f6b66" rx="3"/>
 <text x="132" y="135.0" text-anchor="end" font-family="Arial" font-size="11" font-weight="normal" fill="#3b2a1a">Egypt</text>
-<text x="533.3" y="135.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">89.4%</text>
+<text x="533.0" y="135.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">89.4%</text>
 <rect x="140" y="151" width="430" height="24" fill="#f2e8db"/>
-<rect x="140" y="151" width="370.6" height="24" fill="#3f6b66" rx="3"/>
+<rect x="140" y="151" width="370.9" height="24" fill="#3f6b66" rx="3"/>
 <text x="132" y="167.0" text-anchor="end" font-family="Arial" font-size="11" font-weight="normal" fill="#3b2a1a">Netherlands</text>
-<text x="518.6" y="167.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">86.0%</text>
+<text x="518.9" y="167.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">86.1%</text>
 <rect x="140" y="183" width="430" height="24" fill="#f2e8db"/>
-<rect x="140" y="183" width="325.1" height="24" fill="#3f6b66" rx="3"/>
+<rect x="140" y="183" width="324.8" height="24" fill="#3f6b66" rx="3"/>
 <text x="132" y="199.0" text-anchor="end" font-family="Arial" font-size="11" font-weight="normal" fill="#3b2a1a">France</text>
-<text x="473.1" y="199.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">75.5%</text>
+<text x="472.8" y="199.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">75.4%</text>
 <rect x="140" y="215" width="430" height="24" fill="#f2e8db"/>
-<rect x="140" y="215" width="317.0" height="24" fill="#3f6b66" rx="3"/>
+<rect x="140" y="215" width="317.1" height="24" fill="#3f6b66" rx="3"/>
 <text x="132" y="231.0" text-anchor="end" font-family="Arial" font-size="11" font-weight="normal" fill="#3b2a1a">Spain</text>
-<text x="465.0" y="231.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">73.6%</text>
+<text x="465.1" y="231.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">73.6%</text>
 <rect x="140" y="247" width="430" height="24" fill="#f2e8db"/>
-<rect x="140" y="247" width="294.1" height="24" fill="#3f6b66" rx="3"/>
+<rect x="140" y="247" width="293.2" height="24" fill="#3f6b66" rx="3"/>
 <text x="132" y="263.0" text-anchor="end" font-family="Arial" font-size="11" font-weight="normal" fill="#3b2a1a">Sudan</text>
-<text x="442.1" y="263.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">68.3%</text>
+<text x="441.2" y="263.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">68.1%</text>
 <rect x="140" y="279" width="430" height="24" fill="#f2e8db"/>
-<rect x="140" y="279" width="251.5" height="24" fill="#3f6b66" rx="3"/>
+<rect x="140" y="279" width="250.8" height="24" fill="#3f6b66" rx="3"/>
 <text x="132" y="295.0" text-anchor="end" font-family="Arial" font-size="11" font-weight="normal" fill="#3b2a1a">Sri Lanka</text>
-<text x="399.5" y="295.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">58.4%</text>
+<text x="398.8" y="295.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">58.2%</text>
 <rect x="140" y="311" width="430" height="24" fill="#f2e8db"/>
-<rect x="140" y="311" width="244.8" height="24" fill="#3f6b66" rx="3"/>
+<rect x="140" y="311" width="245.4" height="24" fill="#3f6b66" rx="3"/>
 <text x="132" y="327.0" text-anchor="end" font-family="Arial" font-size="11" font-weight="normal" fill="#3b2a1a">Australia</text>
-<text x="392.8" y="327.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">56.8%</text>
+<text x="393.4" y="327.0" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">57.0%</text>
 <rect x="140" y="343" width="430" height="24" fill="#f2e8db"/>
 <rect x="140" y="343" width="4.9" height="24" fill="#c0654b" rx="3"/>
 <text x="132" y="359.0" text-anchor="end" font-family="Arial" font-size="11" font-weight="bold" fill="#3b2a1a">India</text>
