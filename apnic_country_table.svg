@@ -1,5 +1,5 @@
-<svg viewBox="0 0 400 1068" xmlns="http://www.w3.org/2000/svg">
-  <rect width="400" height="1068" fill="#e8d5c1"/>
+<svg viewBox="0 0 400 1040" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="1040" fill="#e8d5c1"/>
 <text x="200.0" y="28" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#3b2a1a">APNIC-Region ASPA Adoption by Country</text>
 <rect x="20" y="45" width="360" height="28" fill="#3f6b66"/>
 <text x="35" y="64" font-family="Arial" font-size="13" font-weight="bold" fill="#f2e8db">Country</text>
@@ -18,7 +18,7 @@
 <text x="340" y="176" font-family="Arial" font-size="12" fill="#3b2a1a">36</text>
 <rect x="20" y="185" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="204" font-family="Arial" font-size="12" fill="#3b2a1a">PK</text>
-<text x="340" y="204" font-family="Arial" font-size="12" fill="#3b2a1a">32</text>
+<text x="340" y="204" font-family="Arial" font-size="12" fill="#3b2a1a">33</text>
 <rect x="20" y="213" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="232" font-family="Arial" font-size="12" fill="#3b2a1a">NP</text>
 <text x="340" y="232" font-family="Arial" font-size="12" fill="#3b2a1a">31</text>
@@ -92,21 +92,18 @@
 <text x="35" y="876" font-family="Arial" font-size="12" fill="#3b2a1a">CA</text>
 <text x="340" y="876" font-family="Arial" font-size="12" fill="#3b2a1a">1</text>
 <rect x="20" y="885" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="904" font-family="Arial" font-size="12" fill="#3b2a1a">N/A</text>
+<text x="35" y="904" font-family="Arial" font-size="12" fill="#3b2a1a">VU</text>
 <text x="340" y="904" font-family="Arial" font-size="12" fill="#3b2a1a">1</text>
 <rect x="20" y="913" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="932" font-family="Arial" font-size="12" fill="#3b2a1a">VU</text>
+<text x="35" y="932" font-family="Arial" font-size="12" fill="#3b2a1a">DK</text>
 <text x="340" y="932" font-family="Arial" font-size="12" fill="#3b2a1a">1</text>
 <rect x="20" y="941" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="960" font-family="Arial" font-size="12" fill="#3b2a1a">DK</text>
+<text x="35" y="960" font-family="Arial" font-size="12" fill="#3b2a1a">CK</text>
 <text x="340" y="960" font-family="Arial" font-size="12" fill="#3b2a1a">1</text>
 <rect x="20" y="969" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="988" font-family="Arial" font-size="12" fill="#3b2a1a">CK</text>
+<text x="35" y="988" font-family="Arial" font-size="12" fill="#3b2a1a">GU</text>
 <text x="340" y="988" font-family="Arial" font-size="12" fill="#3b2a1a">1</text>
 <rect x="20" y="997" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="1016" font-family="Arial" font-size="12" fill="#3b2a1a">GU</text>
+<text x="35" y="1016" font-family="Arial" font-size="12" fill="#3b2a1a">KR</text>
 <text x="340" y="1016" font-family="Arial" font-size="12" fill="#3b2a1a">1</text>
-<rect x="20" y="1025" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="1044" font-family="Arial" font-size="12" fill="#3b2a1a">KR</text>
-<text x="340" y="1044" font-family="Arial" font-size="12" fill="#3b2a1a">1</text>
 </svg>
