@@ -6,7 +6,7 @@
 <text x="340" y="64" font-family="Arial" font-size="13" font-weight="bold" fill="#f2e8db">ASNs</text>
 <rect x="20" y="73" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="92" font-family="Arial" font-size="12" fill="#3b2a1a">AU</text>
-<text x="340" y="92" font-family="Arial" font-size="12" fill="#3b2a1a">81</text>
+<text x="340" y="92" font-family="Arial" font-size="12" fill="#3b2a1a">85</text>
 <rect x="20" y="101" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="120" font-family="Arial" font-size="12" fill="#3b2a1a">BD</text>
 <text x="340" y="120" font-family="Arial" font-size="12" fill="#3b2a1a">69</text>
@@ -41,13 +41,13 @@
 <text x="35" y="400" font-family="Arial" font-size="12" fill="#3b2a1a">MM</text>
 <text x="340" y="400" font-family="Arial" font-size="12" fill="#3b2a1a">10</text>
 <rect x="20" y="409" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="428" font-family="Arial" font-size="12" fill="#3b2a1a">JP</text>
-<text x="340" y="428" font-family="Arial" font-size="12" fill="#3b2a1a">5</text>
+<text x="35" y="428" font-family="Arial" font-size="12" fill="#3b2a1a">CN</text>
+<text x="340" y="428" font-family="Arial" font-size="12" fill="#3b2a1a">7</text>
 <rect x="20" y="437" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="456" font-family="Arial" font-size="12" fill="#3b2a1a">ID</text>
-<text x="340" y="456" font-family="Arial" font-size="12" fill="#3b2a1a">5</text>
+<text x="35" y="456" font-family="Arial" font-size="12" fill="#3b2a1a">JP</text>
+<text x="340" y="456" font-family="Arial" font-size="12" fill="#3b2a1a">6</text>
 <rect x="20" y="465" width="360" height="28" fill="#f2e8db" stroke="#d3bfa4" stroke-width="0.5"/>
-<text x="35" y="484" font-family="Arial" font-size="12" fill="#3b2a1a">CN</text>
+<text x="35" y="484" font-family="Arial" font-size="12" fill="#3b2a1a">ID</text>
 <text x="340" y="484" font-family="Arial" font-size="12" fill="#3b2a1a">5</text>
 <rect x="20" y="493" width="360" height="28" fill="#e8d5c1" stroke="#d3bfa4" stroke-width="0.5"/>
 <text x="35" y="512" font-family="Arial" font-size="12" fill="#3b2a1a">FJ</text>
