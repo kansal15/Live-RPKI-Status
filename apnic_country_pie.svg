@@ -1,51 +1,51 @@
 <svg viewBox="0 0 720 736" xmlns="http://www.w3.org/2000/svg">
   <rect width="720" height="736" fill="#e8d5c1"/>
 <text x="360.0" y="30" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#3b2a1a">APNIC-Region ASPA Adoption by Country</text>
-<text x="360.0" y="52" text-anchor="middle" font-family="Arial" font-size="12" fill="#7a6650">(n=533)</text>
-<path d="M190,383.0 L190.00,233.00 A150,150 0 0,1 325.77,319.23 Z" fill="#c0654b" stroke="#e8d5c1" stroke-width="2"/>
+<text x="360.0" y="52" text-anchor="middle" font-family="Arial" font-size="12" fill="#7a6650">(n=538)</text>
+<path d="M190,383.0 L190.00,233.00 A150,150 0 0,1 325.84,319.39 Z" fill="#c0654b" stroke="#e8d5c1" stroke-width="2"/>
 <text x="244.7" y="296.9" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#f2e8db">18%</text>
-<path d="M190,383.0 L325.77,319.23 A150,150 0 0,1 317.79,461.54 Z" fill="#8a9a5b" stroke="#e8d5c1" stroke-width="2"/>
-<text x="291.8" y="388.7" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#f2e8db">16%</text>
-<path d="M190,383.0 L317.79,461.54 A150,150 0 0,1 218.99,530.17 Z" fill="#3f6b66" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L325.84,319.39 A150,150 0 0,1 317.51,462.01 Z" fill="#8a9a5b" stroke="#e8d5c1" stroke-width="2"/>
+<text x="291.8" y="389.0" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#f2e8db">16%</text>
+<path d="M190,383.0 L317.51,462.01 A150,150 0 0,1 219.59,530.05 Z" fill="#3f6b66" stroke="#e8d5c1" stroke-width="2"/>
 <text x="248.2" y="466.8" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#f2e8db">13%</text>
-<path d="M190,383.0 L218.99,530.17 A150,150 0 0,1 143.90,525.74 Z" fill="#d1a24a" stroke="#e8d5c1" stroke-width="2"/>
-<text x="184.0" y="484.8" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#f2e8db">8%</text>
-<path d="M190,383.0 L143.90,525.74 A150,150 0 0,1 85.35,490.46 Z" fill="#7d5a6a" stroke="#e8d5c1" stroke-width="2"/>
-<text x="137.4" y="470.4" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#f2e8db">7%</text>
-<path d="M190,383.0 L85.35,490.46 A150,150 0 0,1 53.12,444.36 Z" fill="#5b7a99" stroke="#e8d5c1" stroke-width="2"/>
-<text x="106.4" y="441.4" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#f2e8db">6%</text>
-<path d="M190,383.0 L53.12,444.36 A150,150 0 0,1 40.34,393.16 Z" fill="#a8763e" stroke="#e8d5c1" stroke-width="2"/>
-<text x="91.0" y="407.7" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#f2e8db">6%</text>
-<path d="M190,383.0 L40.34,393.16 A150,150 0 0,1 42.42,356.18 Z" fill="#6b8f71" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L42.42,356.18 A150,150 0 0,1 49.44,330.64 Z" fill="#c0654b" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L49.44,330.64 A150,150 0 0,1 59.95,308.26 Z" fill="#8a9a5b" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L59.95,308.26 A150,150 0 0,1 72.88,289.28 Z" fill="#3f6b66" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L72.88,289.28 A150,150 0 0,1 85.99,274.92 Z" fill="#d1a24a" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L85.99,274.92 A150,150 0 0,1 93.88,267.84 Z" fill="#7d5a6a" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L93.88,267.84 A150,150 0 0,1 102.26,261.34 Z" fill="#5b7a99" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L102.26,261.34 A150,150 0 0,1 111.08,255.44 Z" fill="#a8763e" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L111.08,255.44 A150,150 0 0,1 118.73,251.01 Z" fill="#6b8f71" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L118.73,251.01 A150,150 0 0,1 126.63,247.04 Z" fill="#c0654b" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L126.63,247.04 A150,150 0 0,1 134.75,243.55 Z" fill="#8a9a5b" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L134.75,243.55 A150,150 0 0,1 141.38,241.10 Z" fill="#3f6b66" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L141.38,241.10 A150,150 0 0,1 148.13,238.96 Z" fill="#d1a24a" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L148.13,238.96 A150,150 0 0,1 154.96,237.15 Z" fill="#7d5a6a" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L154.96,237.15 A150,150 0 0,1 160.14,236.00 Z" fill="#5b7a99" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L160.14,236.00 A150,150 0 0,1 165.36,235.04 Z" fill="#a8763e" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L165.36,235.04 A150,150 0 0,1 170.60,234.26 Z" fill="#6b8f71" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L170.60,234.26 A150,150 0 0,1 175.87,233.67 Z" fill="#c0654b" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L175.87,233.67 A150,150 0 0,1 179.40,233.38 Z" fill="#8a9a5b" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L179.40,233.38 A150,150 0 0,1 182.93,233.17 Z" fill="#3f6b66" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L182.93,233.17 A150,150 0 0,1 186.46,233.04 Z" fill="#d1a24a" stroke="#e8d5c1" stroke-width="2"/>
-<path d="M190,383.0 L186.46,233.04 A150,150 0 0,1 190.00,233.00 Z" fill="#7d5a6a" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L219.59,530.05 A150,150 0 0,1 141.82,525.05 Z" fill="#d1a24a" stroke="#e8d5c1" stroke-width="2"/>
+<text x="183.5" y="484.8" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#f2e8db">8%</text>
+<path d="M190,383.0 L141.82,525.05 A150,150 0 0,1 84.24,489.38 Z" fill="#7d5a6a" stroke="#e8d5c1" stroke-width="2"/>
+<text x="136.3" y="469.7" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#f2e8db">7%</text>
+<path d="M190,383.0 L84.24,489.38 A150,150 0 0,1 52.71,443.42 Z" fill="#5b7a99" stroke="#e8d5c1" stroke-width="2"/>
+<text x="105.9" y="440.7" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#f2e8db">6%</text>
+<path d="M190,383.0 L52.71,443.42 A150,150 0 0,1 40.31,392.63 Z" fill="#a8763e" stroke="#e8d5c1" stroke-width="2"/>
+<text x="90.9" y="407.2" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#f2e8db">6%</text>
+<path d="M190,383.0 L40.31,392.63 A150,150 0 0,1 42.45,355.99 Z" fill="#6b8f71" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L42.45,355.99 A150,150 0 0,1 49.42,330.69 Z" fill="#c0654b" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L49.42,330.69 A150,150 0 0,1 59.81,308.51 Z" fill="#8a9a5b" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L59.81,308.51 A150,150 0 0,1 73.67,288.31 Z" fill="#3f6b66" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L73.67,288.31 A150,150 0 0,1 86.76,274.18 Z" fill="#d1a24a" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L86.76,274.18 A150,150 0 0,1 94.63,267.22 Z" fill="#7d5a6a" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L94.63,267.22 A150,150 0 0,1 102.97,260.83 Z" fill="#5b7a99" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L102.97,260.83 A150,150 0 0,1 111.74,255.04 Z" fill="#a8763e" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L111.74,255.04 A150,150 0 0,1 119.34,250.69 Z" fill="#6b8f71" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L119.34,250.69 A150,150 0 0,1 127.18,246.79 Z" fill="#c0654b" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L127.18,246.79 A150,150 0 0,1 135.24,243.35 Z" fill="#8a9a5b" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L135.24,243.35 A150,150 0 0,1 141.82,240.95 Z" fill="#3f6b66" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L141.82,240.95 A150,150 0 0,1 148.50,238.85 Z" fill="#d1a24a" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L148.50,238.85 A150,150 0 0,1 155.28,237.07 Z" fill="#7d5a6a" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L155.28,237.07 A150,150 0 0,1 160.41,235.95 Z" fill="#5b7a99" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L160.41,235.95 A150,150 0 0,1 165.58,235.00 Z" fill="#a8763e" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L165.58,235.00 A150,150 0 0,1 170.78,234.24 Z" fill="#6b8f71" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L170.78,234.24 A150,150 0 0,1 176.01,233.65 Z" fill="#c0654b" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L176.01,233.65 A150,150 0 0,1 179.50,233.37 Z" fill="#8a9a5b" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L179.50,233.37 A150,150 0 0,1 183.00,233.16 Z" fill="#3f6b66" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L183.00,233.16 A150,150 0 0,1 186.50,233.04 Z" fill="#d1a24a" stroke="#e8d5c1" stroke-width="2"/>
+<path d="M190,383.0 L186.50,233.04 A150,150 0 0,1 190.00,233.00 Z" fill="#7d5a6a" stroke="#e8d5c1" stroke-width="2"/>
 <rect x="400" y="70" width="14" height="14" fill="#c0654b"/>
-<text x="420" y="81" font-family="Arial" font-size="12" fill="#3b2a1a">AU (96)</text>
+<text x="420" y="81" font-family="Arial" font-size="12" fill="#3b2a1a">AU (97)</text>
 <rect x="400" y="94" width="14" height="14" fill="#8a9a5b"/>
-<text x="420" y="105" font-family="Arial" font-size="12" fill="#3b2a1a">BD (84)</text>
+<text x="420" y="105" font-family="Arial" font-size="12" fill="#3b2a1a">BD (85)</text>
 <rect x="400" y="118" width="14" height="14" fill="#3f6b66"/>
 <text x="420" y="129" font-family="Arial" font-size="12" fill="#3b2a1a">IN (70)</text>
 <rect x="400" y="142" width="14" height="14" fill="#d1a24a"/>
-<text x="420" y="153" font-family="Arial" font-size="12" fill="#3b2a1a">PH (43)</text>
+<text x="420" y="153" font-family="Arial" font-size="12" fill="#3b2a1a">PH (45)</text>
 <rect x="400" y="166" width="14" height="14" fill="#7d5a6a"/>
 <text x="420" y="177" font-family="Arial" font-size="12" fill="#3b2a1a">PK (39)</text>
 <rect x="400" y="190" width="14" height="14" fill="#5b7a99"/>
@@ -59,7 +59,7 @@
 <rect x="400" y="286" width="14" height="14" fill="#8a9a5b"/>
 <text x="420" y="297" font-family="Arial" font-size="12" fill="#3b2a1a">HK (14)</text>
 <rect x="400" y="310" width="14" height="14" fill="#3f6b66"/>
-<text x="420" y="321" font-family="Arial" font-size="12" fill="#3b2a1a">TH (13)</text>
+<text x="420" y="321" font-family="Arial" font-size="12" fill="#3b2a1a">TH (14)</text>
 <rect x="400" y="334" width="14" height="14" fill="#d1a24a"/>
 <text x="420" y="345" font-family="Arial" font-size="12" fill="#3b2a1a">MM (11)</text>
 <rect x="400" y="358" width="14" height="14" fill="#7d5a6a"/>
